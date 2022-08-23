@@ -16,7 +16,7 @@ isFirstMail = True
 while True:
     if __DEBUG__:
         print("Hour: ",now.hour,"isFirstMail: ", isFirstMail)
-    if now.hour == 17 and isFirstMail:
+    if now.hour == 7 and isFirstMail:
 
         #웹페이지 불러오기
         newboard_html = requests.get("https://plus.cnu.ac.kr/_prog/_board/?code=sub07_0701&site_dvs_cd=kr&menu_dvs_cd=0701")
